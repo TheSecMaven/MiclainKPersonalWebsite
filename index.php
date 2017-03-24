@@ -19,7 +19,7 @@
 </div>
 <div class="pt-page" id="about-section">
 	<div class="back-button hidden-xs">
-		<a href="index.php?p=home" class="back" data-animation="1" data-target=".pt-page-1">
+		<a href="droppage.html" class="back" data-animation="1" data-target=".pt-page-1">
 			<i class="fa"></i>
 		</a>
 	</div>
@@ -53,6 +53,8 @@
 		<script src="js/jquery-2.1.0.min.js"></script>
         <script src="js/modernizr-2.6.2.min.js"></script>
     </head>
+    <div class="banner">
+
 <div id="content">
 
   <body class="yo-anim-enabled">
@@ -74,8 +76,7 @@
 				<div class="col-md-10 col-md-offset-1 slide-header">
         <h1>
  						Hello,
- 						<a href="/home.html" class="tooltips change-section highlight-color yo-anim yo-anim-fade-ttb" data-target="#about-section" data-direction="bottom" rel="tooltip" data-toggle="tooltip" data-placement="top" title="about me" data-animation-delay="1000"> I'm Miclain</a><br/>
-</h1>
+<a href="droppage.html" onclick="setTimeout('delayedRedirect()', 700);" class="tooltips change-section highlight-color yo-anim yo-anim-fade-ttb"  data-target="#about-section" data-direction="bottom" rel="tooltip" data-toggle="tooltip" data-placement="top" title="Click to Enter Site" data-animation-delay="1000"><strong><strong>I'm Miclain</a></h1>
 <IMG HEIGHT="250" WIDTH="250" SRC="Images/composite.jpeg">
 
 
@@ -119,8 +120,11 @@ function disable() {
 function enable() {
     document.getElementById("mySelect").disabled=false;
 }
-$('.enter_link').click(function() {
-       $(this).parent().fadeOut(2500);
+function delayedRedirect(){
+    window.location = "/home.html"
+}
+$('home.html').click(function() {
+       $(this).parent().fadeOut(1000);
 });
 </script>
 <meta charset="utf-8">
@@ -176,6 +180,11 @@ h1 {
     width: 80%;
     max-width: 978px;
 }
+ul > li
+{
+    color: black;
+}
+
 $(document).ready(function() {
 
     setTimeout(function(){
@@ -185,6 +194,9 @@ $(document).ready(function() {
         $('h1').css('color','#DC143C');
     }, 2500);
 
+});
+$(window).load(function(){
+$('.banner').addClass('droppage.html');
 });
 .nav2 {clear: both; margin: 0px; background-color: #FFFFFF;padding: 0px; font-family: verdana, arial, sans serif; font-size: 1.0em;}
 .nav2 ul {float: left; width: 770px; margin: 0px; padding: 0px; border-top: solid 1px rgb(54,83,151); border-bottom: solid 1px rgb(54,83,151); background-color: rgb(127,162,202); font-weight: bold;}
@@ -253,7 +265,7 @@ color: blue;
        text-decoration: underline;
   }
 a:hover {
-color: red;
+color: purple;
        background-color: transparent;
        text-decoration: underline;
   }
@@ -276,7 +288,7 @@ function timeout(){
 
 function redirect(){
   opacity=1
-window.location="Home.html"
+window.location="droppage.html"
 return}
 
 
