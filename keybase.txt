@@ -1,31 +1,54 @@
+==================================================================
+https://keybase.io/mkkeffeler
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://mkkeffeler.azurewebsites.net
+  * I am mkkeffeler (https://keybase.io/mkkeffeler) on keybase.
+  * I have a public key ASD2rZBck53sTU5Z4IWGLEt0WaSwaxpwsMnis3-rzRFxqAo
+
+To do so, I am signing this object:
+
 {
-  "body": {
-    "key": {
-      "eldest_kid": "0120f6ad905c939dec4d4e59e085862c4b7459a4b06b1a70b0c9e2b37fabcd1171a80a",
-      "host": "keybase.io",
-      "kid": "0120f6ad905c939dec4d4e59e085862c4b7459a4b06b1a70b0c9e2b37fabcd1171a80a",
-      "uid": "00fd15bd39d46d9cab0dc669d4e7b419",
-      "username": "mkkeffeler"
+    "body": {
+        "key": {
+            "eldest_kid": "0120f6ad905c939dec4d4e59e085862c4b7459a4b06b1a70b0c9e2b37fabcd1171a80a",
+            "host": "keybase.io",
+            "kid": "0120f6ad905c939dec4d4e59e085862c4b7459a4b06b1a70b0c9e2b37fabcd1171a80a",
+            "uid": "00fd15bd39d46d9cab0dc669d4e7b419",
+            "username": "mkkeffeler"
+        },
+        "service": {
+            "hostname": "mkkeffeler.azurewebsites.net",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
     },
-    "service": {
-      "hostname": "mkkeffeler.azurewebsites.net",
-      "protocol": "https:"
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.20"
     },
-    "type": "web_service_binding",
-    "version": 1
-  },
-  "client": {
-    "name": "keybase.io go client",
-    "version": "1.0.20"
-  },
-  "ctime": 1492139950,
-  "expire_in": 504576000,
-  "merkle_root": {
-    "ctime": 1492139908,
-    "hash": "67ee38173784a6e4d65ff2cb2aa6a25893255c2b03523b3ea0d210652593efcc0ccdc6cafd84261e291ff9435a9c7e148453b0b6097f6dbfc421b56a825d7837",
-    "seqno": 1018200
-  },
-  "prev": "86b00cdc8a9f9cbe6f01c6dfb23c1773a6d15bb0abe6194a68029c9b958ddbdc",
-  "seqno": 6,
-  "tag": "signature"
+    "ctime": 1492172215,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1492172167,
+        "hash": "38d0ed52eb93dd6677fa5c8255326a3c26b616f7cf90db085a27b2aaec589bff4775ee9533fceb7a2556fa6549cc01dd513ac588df0465217ec23fa5fde9132d",
+        "seqno": 1018849
+    },
+    "prev": "f8051c93b57b2700ef5a87060e95fae3ff1557ca53f743674c52a35971d7fbe7",
+    "seqno": 8,
+    "tag": "signature"
 }
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg9q2QXJOd7E1OWeCFhixLdFmksGsacLDJ4rN/q80RcagKp3BheWxvYWTFAwd7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwZjZhZDkwNWM5MzlkZWM0ZDRlNTllMDg1ODYyYzRiNzQ1OWE0YjA2YjFhNzBiMGM5ZTJiMzdmYWJjZDExNzFhODBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwZjZhZDkwNWM5MzlkZWM0ZDRlNTllMDg1ODYyYzRiNzQ1OWE0YjA2YjFhNzBiMGM5ZTJiMzdmYWJjZDExNzFhODBhIiwidWlkIjoiMDBmZDE1YmQzOWQ0NmQ5Y2FiMGRjNjY5ZDRlN2I0MTkiLCJ1c2VybmFtZSI6Im1ra2VmZmVsZXIifSwic2VydmljZSI6eyJob3N0bmFtZSI6Im1ra2VmZmVsZXIuYXp1cmV3ZWJzaXRlcy5uZXQiLCJwcm90b2NvbCI6Imh0dHBzOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4yMCJ9LCJjdGltZSI6MTQ5MjE3MjIxNSwiZXhwaXJlX2luIjo1MDQ1NzYwMDAsIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNDkyMTcyMTY3LCJoYXNoIjoiMzhkMGVkNTJlYjkzZGQ2Njc3ZmE1YzgyNTUzMjZhM2MyNmI2MTZmN2NmOTBkYjA4NWEyN2IyYWFlYzU4OWJmZjQ3NzVlZTk1MzNmY2ViN2EyNTU2ZmE2NTQ5Y2MwMWRkNTEzYWM1ODhkZjA0NjUyMTdlYzIzZmE1ZmRlOTEzMmQiLCJzZXFubyI6MTAxODg0OX0sInByZXYiOiJmODA1MWM5M2I1N2IyNzAwZWY1YTg3MDYwZTk1ZmFlM2ZmMTU1N2NhNTNmNzQzNjc0YzUyYTM1OTcxZDdmYmU3Iiwic2Vxbm8iOjgsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RAfL0NrBgmA5RYI2T8iBqxpaPgd3JvdUHBhX37mxgOUIpFF44JT5OebyHUEKALxtwk6j4jRHWTiQW7PA4/17sTDqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIFzsZgLwx03uxM/7tn4DxjC1itS/9Zs24PWwB/Nw5ggco3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/mkkeffeler
+
+==================================================================
