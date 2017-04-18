@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Restricted Access"
+AuthUserFile /Users/user/MiclainK/private/.htpassword
+require valid-user
