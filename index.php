@@ -7,7 +7,13 @@
 
 
 <!DOCTYPE html>
-
+<script type="text/javascript">
+  <!--
+  if (screen.width <= 1000) {
+    window.location = "https://mkkeffeler.azurewebsites.net/home.html";
+  }
+  //-->
+</script>
 <html lang="en">
 <html class="no-js">
 <div id="loader-wrapper">
