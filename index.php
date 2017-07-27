@@ -9,10 +9,6 @@
 <!DOCTYPE html>
 <script type="text/javascript">
   <!--
-  if (screen.width <= 1000) {
-    console.log("WINDOW LOCATION CHANGE")
-    window.location = "https://mkkeffeler.azurewebsites.net/home.html";
-  }
   //-->
 </script>
 <html lang="en">
